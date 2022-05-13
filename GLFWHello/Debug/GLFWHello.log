@@ -1,0 +1,20 @@
+﻿  stdafx.cpp
+  fast_obj.c
+  GLFWHello.cpp
+e:\grafkom_22\glfwhello - copy\glfwhello\glfwhello.cpp(13): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+e:\grafkom_22\glfwhello - copy\glfwhello\glfwhello.cpp(17): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+e:\grafkom_22\glfwhello - copy\glfwhello\glfwhello.cpp(21): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+e:\grafkom_22\glfwhello - copy\glfwhello\glfwhello.cpp(25): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+e:\grafkom_22\glfwhello - copy\glfwhello\glfwhello.cpp(90): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CTexture.cpp
+  CObjObject.cpp
+e:\grafkom_22\glfwhello - copy\glfwhello\cobjobject.cpp(31): warning C4018: '<': signed/unsigned mismatch
+  CObjMesh.cpp
+  CCameraObject.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'E:\Grafkom_22\GLFWHello - Copy\Debug\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'E:\Grafkom_22\GLFWHello - Copy\Debug\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'E:\Grafkom_22\GLFWHello - Copy\Debug\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'E:\Grafkom_22\GLFWHello - Copy\Debug\SOIL.pdb'; linking object as if no debug info
+  GLFWHello.vcxproj -> E:\Grafkom_22\GLFWHello - Copy\Debug\GLFWHello.exe
