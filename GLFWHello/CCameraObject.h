@@ -10,15 +10,15 @@ class CCameraObject
 {
 public:
 	glm::vec3 position;
-	glm::vec3 scale;
+	glm::vec3 scale; // will not be used, just for compatibility with other 3D objects
 	glm::vec3 rotation;
 
 	glm::mat4 mattransform;
 	glm::mat4 invmattransform;
 	void calcmat();
 
-	void setLookDirection(glm::vec3 lookdir);
-	void setUpVector(glm::vec3 upvec);
+	void setLookTowards(glm::vec3 lookdir, glm::vec3 upvec);
+	glm::vec3 getLookDirection();
 
 	CCameraObject();
 	~CCameraObject();
